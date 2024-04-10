@@ -1,0 +1,3 @@
+I found this pc online but I can't read the flag, can you do it?
+You can connect to the remote service with:
+nc securegate.challs.olicyber.it 12005

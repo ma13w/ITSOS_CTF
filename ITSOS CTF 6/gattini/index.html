@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualizzatore di immagini</title>
+    <style>
+        html{
+            background: #121212;
+        }
+        #carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 97vw;
+            height: 97vh;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #f0f0f0;">Il piu' semplice visualizzatore di immagini</h1>
+    <div id="carousel"></div>
+    
+    <!-- Questo script cambiera' l'immagine ogni 750ms -->
+    <script>
+        const carousel = document.getElementById('carousel');
+        let currentImage = 0;
+        const images = ["image1.jpeg","image2.jpeg","image3.jpg","image4.jpeg"];
+        setInterval(() => {
+            carousel.innerHTML = '<img src="./getFile.php?file=' + images[currentImage] + '"style="object-fit: cover; width: 600px; height: 600px;">';
+            currentImage = (currentImage + 1) % images.length;
+        }, 750);
+    </script>
+</body>
+</html>
