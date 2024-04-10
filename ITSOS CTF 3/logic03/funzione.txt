@@ -1,0 +1,10 @@
+funzione_ricorsiva(n):
+    if n == 0:
+        return 1
+    elif n == 1:
+        return 2
+    else:
+        return 3 * funzione_ricorsiva(n - 1) - funzione_ricorsiva(n - 2)
+
+risultato = funzione_ricorsiva(4)
+print(risultato)

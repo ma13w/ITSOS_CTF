@@ -1,0 +1,4 @@
+Ciao, grazie per essermi venuto in aiuto. Tempo fa avevo criptato su un foglio questo messaggio per ricordarmi qualcosa ma ora non mi ricordo cosa. Su un biglietto vicino al foglio avevo scritto che il messaggio decriptato andava sostituito alla parola key da qualche parte, per completare il messaggio cifrato ed ottenere la flag.
+
+Messaggio: vjnaanorgurirelorfgyvxrabbarrirejnfxrlgbpngpugurzxrlvfzlernygnfxgbgenvagurzvfzlpnhfr
+Nota: la flag non è in formato standard, mettere flag{segreto} senza spazi.

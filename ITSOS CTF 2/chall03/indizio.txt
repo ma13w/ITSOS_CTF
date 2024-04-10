@@ -1,0 +1,1 @@
+Per risolvere la challenge, dovrai convertire i numeri binari in lettere dell'alfabeto. Ogni gruppo di 8 cifre binarie rappresenta un carattere ASCII. Buona fortuna nella traduzione del messaggio!    

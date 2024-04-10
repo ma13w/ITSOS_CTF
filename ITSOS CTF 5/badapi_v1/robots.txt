@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /badapi.php
+Allow: /getAnswer.php
+Allow: /getFlag.php
+Allow: /getLog.php
+Allow: /getNotes.php
+Allow: /getUser.php
+
+Disallow: /ZGFtbWlsYWZsYWc=.php

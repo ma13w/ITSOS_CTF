@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICCAMI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F0F0F0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+    </style>      
+</head>
+<body>
+    <header>
+        <h1>CTF Web Challenge</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome to the CTF Web Challenge!</h2>
+        <p>Can you find the hidden flag?</p>
+        <button id="revealButton">Reveal Flag</button>
+    </div>
+
+    <script>
+        document.getElementById('revealButton').addEventListener('click', function(){
+            const encodedString = 'ZmxhZ3tzNDFfY2wxY2M0cjNfMV9iMHR0MG4xfQ==';
+
+            function decodeBase64(encodedString) {
+                try {
+                    const decodedString = atob(encodedString);
+                    return decodedString;
+                } catch (error) {
+                    console.error('Errore durante la decriptazione:', error);
+                    return null;
+                }
+            }
+
+            const decryptedString = decodeBase64(encodedString);
+
+            console.log(`Stringa decriptata: ${decryptedString}`);  
+        });
+    </script>
+</body>
+</html>

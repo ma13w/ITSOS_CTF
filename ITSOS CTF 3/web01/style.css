@@ -1,0 +1,200 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  nav {
+    background-color: #444;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  .home {
+    text-align: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home h2{
+    font-size: 150px;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .home p{
+    margin-top: -15px;
+    font-size: 50px;
+    font-style: italic;
+  }
+
+  .shop-btn {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-btn:hover {
+    background-color: #45a049;
+  }
+
+  .shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .product {
+    min-width: 500px;
+    height: 200px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #292929;
+    max-width: 200px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .product img{
+    max-width: 50%;
+    border-radius: 4px;
+  }
+
+  .product h3 {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+  .product p {
+    color: #aaa;
+  }
+
+  .product button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .product button:hover {
+    background-color: #45a049;
+  }
+
+  .cart {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart h2{
+    border-top: 2px solid #aaa;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .cartBtn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  .cartBtn:hover {
+    background-color: #45a049;
+  }
+
+  #totalCash{
+    text-align: center;
+    font-weight: 900;
+  }
+
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #cart-items li {
+    background-color: #333;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  #info-cart{
+    color: red;
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .original-price {
+    color: red; /* Colore rosso per evidenziare il prezzo originale */
+    text-decoration: line-through; /* Linea sopra il testo per indicare il prezzo scontato */
+  }
+
+  /* Stile per il prezzo scontato (gratis) */
+  .discounted-price {
+    color: green; /* Colore verde per indicare il prezzo scontato (gratis) */
+    font-weight: bold; /* Testo in grassetto per attirare l'attenzione */
+  }

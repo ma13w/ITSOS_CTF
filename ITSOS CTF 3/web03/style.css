@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 600px;
+  }
+
+  .tab-group {
+    overflow: hidden;
+    display: flex;
+    margin: 20px;
+  }
+
+  .tab {
+    float: left;
+    width: 50%;
+    cursor: pointer;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+
+  .tab:hover {
+    background-color: #555;
+  }
+
+  .tab-content {
+    display: none;
+    padding: 20px;
+  }
+
+  #login {
+    display: block;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-group {
+    margin: 16px;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .input-group input {
+    width: 99%;
+    width: 500px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+  }
+
+  .input-group input:focus {
+    outline: none;
+    border-color: #00bcd4;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn-primary {
+    background-color: #00bcd4;
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0097a7;
+  }
+
+  .btn-secondary {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .btn-secondary:hover {
+    background-color: #555;
+  }
+
+  .errorform{
+    width: 400px;
+    height: 60px;
+    content: 'Forse i dati sono giusti ma non mi interessa';
+    color: red;
+    margin-left: 20px;
+    font-weight: 900;
+  }
+

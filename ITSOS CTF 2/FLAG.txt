@@ -1,0 +1,7 @@
+SOLUZIONI CTF:
+01 - Rick - flag{r1ck_r0ll3r_the_best}
+02 - ChatMe - flag{th3_funct10n_ar3_g00d}
+03 - ASCII - flag{s31_br4v0_a_d3c1frar3}
+04 - FlagFinder - flag{s41_cl1cc4r3_1_b0tt0n1}
+05 - BrightSun - flag{h1dd3n_by_7h3_5un}
+06 - Sito Vuoto - flag{gr34t_puzzl3_bruh}

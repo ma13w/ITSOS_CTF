@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesAPP</title>
+</head>
+
+<body style="color: green; font-family: monospace;">
+<pre>
+&#60;?php
+<span style="color: blue;">$FLAG</span> = <span style="color: red;">"~~~~~"</span>; 
+
+if (isset(<span style="color: blue;">$_POST</span>[<span style="color: red;">"noteInput"</span>])) { 
+    if (<span style="color: blue;">strcmp</span>(<span style="color: blue;">$FLAG</span>, <span style="color: blue;">$_POST</span>[<span style="color: red;">"noteInput"</span>]) == <span style="color: blue;">0</span>) { 
+        echo <span style="color: blue;">$FLAG</span>; 
+    } else { 
+        echo <span style="color: red;">"Nota sospetta."</span>; 
+    } 
+} 
+?> 
+    </pre>
+</body>
+
+</html>

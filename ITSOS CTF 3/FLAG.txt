@@ -1,0 +1,34 @@
+crypto01 - Minecraft Chiper
+    flag: flag{l4_l3tt3ra_A_e_B_sono_p3rf3tt3}
+    "Questo cifrario mi ricorda un blocco di minecraft..."
+    "flag{testo_decifrato}"
+
+crypto02 - Melodia Criptica
+    flag: flag{f1g0_1l_c0d1c3_m0rs3_W0W_!}
+    "Sintonizzati sulla flag"
+    "flag{testo_decifrato}"
+
+crypto03 - Rotazione Rivelatrice
+    flag: flag{Abdel_m4yb3_l0v3_y0u}
+    "synt{Noqry_z4lo3_y0i3_l0h}"
+    
+web01 - Browser Boutique
+    flag: flag{f0rs3_3r4_tr0pp0_f4c1l3}
+    "C'è un unico modo per acquistare la flag, ma forse ho un eccesso di denaro."
+
+web02 - Babbo Natale
+    flag: flag{Bu0n_N4t4l3_br0}
+    "Tra tutti i Babbo Natale, solo uno è quello giusto. Chissà quale sarà."
+
+web03 - Fake Login
+    flag: flag{Y0u_c4n_h4ck_F0rm_GG}
+    "Ho provato molte volte con vari account a ottenere la flag, ma solo l'admin la conosce. Puoi accedere come admin?"
+
+logic03 - Funzione Ricorsiva
+    risultato: 34
+    "Allenati un po' per la selezione scolstica"
+
+Camera d'hotel
+    risposta: Israele o flag{Israele}
+    "Attualmente sto indagando su un caso di omicidio che è avvenuto in questa camera d'hotel. Potresti aiutarmi a capire in quale nazione si trova?"
+    tip: "Un mio caro amico mi ha consigliato di controllare bene le prese della corrente"
