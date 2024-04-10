@@ -1,0 +1,1 @@
+flag{incredible_shot}
