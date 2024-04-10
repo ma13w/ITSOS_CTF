@@ -1,2 +1,0 @@
-Se riesci a scrivere un messaggio come "admin" qualcuno ti darà la flag.
-Guarda il codice sorgente dell'applicazione qui sotto.
